@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class ArraysAddRemove {
-    public static void methodOne() {
+    public static void removeElement() {
         int[] array = {1, 2, 3, 4, 5};
         int[] newArray = new int[array.length - 1];
         int valueToRemove = 2;
@@ -32,6 +32,6 @@ public class ArraysAddRemove {
     }
 
     public static void main(String[] args) {
-        methodOne();
+        removeElement();
     }
 }
