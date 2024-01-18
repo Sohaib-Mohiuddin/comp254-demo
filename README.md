@@ -2,9 +2,9 @@
 
 ### Created By: Sohaib Mohiuddin
 
-### Oerview of the Data Structures and Algorithms covered:
+### Overview of the Data Structures and Algorithms covered:
 
-#### Week 4
+#### Week 2
 
 - ArraysExample     --> basic usage of Arrays 
 - ArraysAddRemove   --> example of add and remove operations on Arrays
