@@ -4,9 +4,9 @@ public class LinkedList {
 
     // Constructor
     public LinkedList() {
-            this.head = null;
-            this.tail = null;
-        }
+        this.head = null;
+        this.tail = null;
+    }
 
     // Method to insert a node at the end
     public void insertAtEnd(int data) {
@@ -23,12 +23,12 @@ public class LinkedList {
     // Method to insert a node at the beginning
     public void insertAtBeginning(int data) {
         Node newNode = new Node(data);
-        if (head == null) {
-            head = newNode;
-            tail = newNode;
+        if (this.head == null) {
+            this.head = newNode;
+            this.tail = newNode;
         } else {
             newNode.setNext(head);
-            head = newNode;
+            this.head = newNode;
         }
     }
 
