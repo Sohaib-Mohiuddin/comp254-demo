@@ -1,21 +1,10 @@
 import java.util.List;
-import java.util.LinkedList;
 
 public class LinkedListExample {
     public static void main(String[] args) {
-        // Create a LinkedList of Strings
-        // Use List to ensure we can use any collection such as ArrayList, LinkedList
-        List<String> car = new LinkedList<>();
-
-        // Add some cars to the LinkedList
-        car.add("Honda");
-        car.add("Toyota");
-
-        System.out.println("The Cars List Contains: " + car);
-
         // Using our own linked list class
-        /* 
-        SinglyLinkedList linkedList = new SinglyLinkedList();
+        
+        LinkedList linkedList = new LinkedList();
 
         linkedList.insertAtEnd(10);
         linkedList.insertAtEnd(20);
@@ -37,6 +26,6 @@ public class LinkedListExample {
 
         linkedList.removeFromInBetween(2);
         linkedList.display(); // Output: 10 20
-        */
+        
     }
 }

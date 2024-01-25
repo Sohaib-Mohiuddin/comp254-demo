@@ -1,18 +1,26 @@
+package Week3.Base_Files;
+
 public class Node {
-    private String data; // String data for Node
+    private Integer data; // Integer data for Node
     private Node next; // Reference to next Node
 
     // Constructor
     public Node() { }
 
     // Constructor
-    public Node(String data, Node next) {
+    public Node(Integer data) {
+        this.data = data;
+        this.next = null;
+    }
+
+    // Constructor
+    public Node(Integer data, Node next) {
         this.data = data;
         this.next = next;
     }
 
     // Getters and Setters
-    public String getData() {
+    public Integer getData() {
         return this.data;
     }
 
@@ -20,7 +28,7 @@ public class Node {
         return this.next;
     }
 
-    public void setData(String data) {
+    public void setData(Integer data) {
         this.data = data;
     }
 
@@ -30,7 +38,7 @@ public class Node {
 
     // toString method
     public String toString() {
-        return this.data;
+        return String.valueOf(this.data);
     }
 
     // equals method
