@@ -32,15 +32,17 @@
 - CloneListRunnable
 -   Runnable file for Clone Classes
 
+## All Content From Week 4 Onwards will be in DSACourse Directory
+
 #### Week 4
 
 - Class File Location
-  - week4/src/main/java/com/algorithms
+  - DSACourse/src/main/java/com/algorithms/week4
 - Resource File Location
-  - week4/src/main/resources
+  - DSACourse/src/main/resources
 - Class File Descriptions
   - App
-    - Runnable file for algorithms in Algorithms Class
+    - Runnable file for Any Class
   - Algorithms
     - class containing main algorithms
   - JsonReader
@@ -50,8 +52,14 @@
 
 #### Week 5
 
-- Class File Location 
-
+- Class File Location
+  - DSACourse/src/main/java/com/algorithms/week5
 - Resource File Location
-
+  - DSACourse/src/main/resources
 - Class File Descriptions
+  - App
+    - Runnable file for Any Class
+  - Algorithms
+    - class containing main algorithms
+  - JsonReader
+    - reader for JSON files located in resources
