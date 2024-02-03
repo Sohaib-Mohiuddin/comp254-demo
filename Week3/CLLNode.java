@@ -1,4 +1,4 @@
-package Week3.Base_Files;
+package Week3;
 
 /*
  * Circular Linked List Node
@@ -10,6 +10,11 @@ public class CLLNode {
     public CLLNode(Integer data) {
         this.data = data;
         this.next = null;
+    }
+
+    public CLLNode(Integer data, CLLNode next) {
+        this.data = data;
+        this.next = next;
     }
 
     public Integer getData() {

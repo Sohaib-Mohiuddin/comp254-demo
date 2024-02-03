@@ -3,6 +3,9 @@ package Week3;
 public class COMP254003CLLRunnable {
     public static void main(String[] args) {
         COMP254003CLL cll = new COMP254003CLL();
+        
+        cll.display();
+
         cll.insertAtBeginning("Sohaib");
 
         cll.display();

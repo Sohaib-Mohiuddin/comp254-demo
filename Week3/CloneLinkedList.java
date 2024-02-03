@@ -1,10 +1,5 @@
 package Week3;
 
-import Week3.Base_Files.CLL;
-import Week3.Base_Files.CLLNode;
-import Week3.Base_Files.LinkedList;
-import Week3.Base_Files.Node;
-
 public class CloneLinkedList {
     public static void cloneLinkedList(LinkedList list) {
         LinkedList clone = new LinkedList();
@@ -27,6 +22,7 @@ public class CloneLinkedList {
             clone.insertAtEnd(current.getData());
             current = current.getNext();
         }
+        tail.setNext(head);
         System.out.println("Clone of the circular linked list: ");
         System.out.println("list == clone: " + (list == clone));
         System.out.println("list.equals(clone): " + list.equals(clone));
