@@ -1,13 +1,13 @@
 package com.algorithms.week4;
 
-import com.algorithms.App;
+import com.algorithms.utils.JsonReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
 public class Algorithms {
-    private static final Logger logger = LoggerFactory.getLogger(App.class);
+    private static final Logger logger = LoggerFactory.getLogger(Algorithms.class);
 
     // Linear Search Algorithm
     // This algorithm searches for a target value in an array by checking each element in the array.
