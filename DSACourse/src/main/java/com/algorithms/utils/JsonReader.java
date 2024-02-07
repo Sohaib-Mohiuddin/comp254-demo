@@ -1,4 +1,4 @@
-package com.algorithms.week4;
+package com.algorithms.utils;
 
 import com.algorithms.App;
 import org.slf4j.Logger;
