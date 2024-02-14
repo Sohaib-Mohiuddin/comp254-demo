@@ -63,3 +63,21 @@
     - class containing main algorithms
   - JsonReader
     - reader for JSON files located in resources
+
+#### Week 6
+
+- Class File Location
+  - DSACourse/src/main/java/com/algorithms/week6
+- Resource File Location
+  - DSACourse/src/main/resources
+- Class File Descriptions
+  - App
+    - Runnable file for Any Class
+  - QueueArray
+    - Queue Array Implementation with basic operations
+  - QueueLL
+    - Queue Singly Linked List Implementation with basic operations
+  - StackArray
+    - Stack Array Implementation with basic operations
+  - StackLL
+    - Stack Singly Linked List Implementation with basic operations

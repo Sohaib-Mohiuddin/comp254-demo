@@ -2,6 +2,7 @@ package com.algorithms;
 
 import com.algorithms.week4.*;
 import com.algorithms.week5.*;
+import com.algorithms.week6.*;
 
 /**
  * Algorithm Analysis
@@ -24,17 +25,27 @@ public class App {
         // Algorithms.selectionSort("20k_random");
     }
     public static void week5Runnable() {
-//        BinarySearch.binarySearch("5k", 2500);
+        /*
+         * Binary Search Run Times
+         * 5k.json 2500 ns; 10k.json 2500 ns; 20k.json 2500 ns; 50k.json 2500 ns; 100k.json 2500 ns
+         */
+        BinarySearch.binarySearch("5k", 2500);
 
-//        BinarySearch.BSRecursive("5k", 4999);
+        BinarySearch.BSRecursive("5k", 4999);
+
         long start = System.currentTimeMillis();
         System.out.println(BinarySearch.factorial(30));
         long end = System.currentTimeMillis();
         System.out.println("Factorial: " + (end - start) + " ms");
     }
+    public static void week6Runnable() {
+
+    }
     public static void main(String[] args) {
         // week4Runnable();
 
-        week5Runnable();
+        // week5Runnable();
+
+        week6Runnable();
     }
 }
