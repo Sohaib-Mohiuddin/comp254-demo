@@ -1,8 +1,6 @@
 package com.algorithms.week6;
 
 import java.util.NoSuchElementException;
-import java.util.Queue;
-import java.util.Stack;
 
 public class StackArray<T> {
     private T[] stack;

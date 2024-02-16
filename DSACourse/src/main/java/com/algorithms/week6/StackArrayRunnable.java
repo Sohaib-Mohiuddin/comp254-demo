@@ -13,6 +13,12 @@ public class StackArrayRunnable {
         stack.print();
         System.out.println("Stack size: " + stack.size());
 
+        stack.push(7);
+        stack.push(8);
+        stack.push(9);
+        stack.push(11);
+        stack.push(55);
+
         System.out.println("Stack pop: " + stack.pop());
         stack.print();
         System.out.println("Stack size: " + stack.size());
