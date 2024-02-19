@@ -15,6 +15,9 @@ public class StackArrayRunnable {
 
         stack.push(7);
         stack.push(8);
+
+        System.out.println("Stack pop: " + stack.pop());
+
         stack.push(9);
         stack.push(11);
         stack.push(55);
