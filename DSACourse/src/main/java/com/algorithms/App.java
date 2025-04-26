@@ -42,10 +42,10 @@ public class App {
 
     }
     public static void main(String[] args) {
-        // week4Runnable();
+//         week4Runnable();
 
-        // week5Runnable();
+//         week5Runnable();
 
-        week6Runnable();
+//        week6Runnable();
     }
 }
